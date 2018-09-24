@@ -1,5 +1,5 @@
 puts "Hello donne moi un nombre s'il-te-plait !"
-nombre = gets.to_i
+nombre = gets.chomp.to_i
 
 nombre.times do |i|
 	puts i
